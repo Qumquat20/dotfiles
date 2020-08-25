@@ -3,6 +3,16 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/qumquat/.oh-my-zsh"
+export SPICETIFY_INSTALL="/home/qumquat/spicetify-cli"
+export PATH="$SPICETIFY_INSTALL:$PATH"
+
+alias htbvpn="sudo /home/qumquat/ctfs/htb/Qumquat.ovpn"
+alias sl="ls"
+alias s="ls"
+alias pysrv="python3 -m http.server"
+alias mknmap="mkdir nmap && nmap -A -oN nmap/nmapscan $IP"
+alias nvi="nvim"
+alias tor="/home/qumquat/tor-browser_en_US/Browser/start-tor-browser --detach"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
